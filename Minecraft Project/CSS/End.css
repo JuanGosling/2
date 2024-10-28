@@ -5,6 +5,20 @@
 
 }
 
+@font-face{
+
+    font-family:"Minecraft-Solid";
+    src:url(../FONT/MinecraftFifty-Solid.otf);
+
+}
+
+
+p{
+    color: white;
+    font-family: Minecraft ;
+    font-size: 18px;
+}
+
 body{
     background-image: url(../IMG/FondoEnd.png);
     background-repeat: no-repeat;
