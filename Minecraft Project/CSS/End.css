@@ -5,6 +5,32 @@
 
 }
 
+@font-face{
+
+    font-family:"Minecraft-Solid";
+    src:url(../FONT/MinecraftFifty-Solid.otf);
+
+}
+
+
+p{
+    color: white;
+    font-family: Minecraft ;
+    font-size: 18px;
+}
+
+body{
+    background-image: url(../IMG/FondoEnd.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div.container.text-left{
+    
+    max-width: 60%;
+    background-image: url(../IMG/Piedrafin.png);
+}
 
 nav.navbar.navbar-expand-lg{
 
@@ -36,4 +62,40 @@ button.btn-outline-danger {
 button.navbar-toggler{
 
     background-color: #737070;
+}
+
+p{
+    padding-left: 30px; 
+    padding-right: 30px  ; 
+    color: rgb(0, 0, 0);
+    font-family: Minecraft ;
+    font-size: 18px;
+}
+
+ol,li{
+    
+    color: rgb(0, 0, 0);
+    font-family: Minecraft ;
+    font-size: 18px; 
+}
+
+#lista{
+    padding-left: 30px;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.titulos{
+    color: #ac07ff;
+    font-size: 28px; 
+    margin-top: 30px;
+}
+
+table,tr,td,th{
+    color: white;
+    font-family: Minecraft ;
+    font-size: 18px;
+    text-align: center;
 }
