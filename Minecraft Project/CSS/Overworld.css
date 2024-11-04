@@ -69,6 +69,19 @@ p{
     text-align: center;
 }
 
+.titulo2{
+    padding-top: 5px;
+    font-family:Minecraft-Solid ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.texton{
+    font-family: Minecraft ;
+    font-size: 18px;
+    color: #000;
+}
+
 .parallax {
     height: 1vh;
     background-attachment: fixed;
@@ -83,7 +96,7 @@ p{
     pointer-events: none;
     top: 0;
 }
-.degradado{
 
+.card{
+    color: #000;
 }
-
