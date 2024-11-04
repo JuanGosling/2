@@ -11,6 +11,10 @@
 
 }
 
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
 
 nav.navbar.navbar-expand-lg{
 
@@ -64,3 +68,22 @@ p{
     font-size: 50px;
     text-align: center;
 }
+
+.parallax {
+    height: 1vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax img {
+    position: absolute;
+    margin-top: 10px;
+    pointer-events: none;
+    top: 0;
+}
+.degradado{
+
+}
+

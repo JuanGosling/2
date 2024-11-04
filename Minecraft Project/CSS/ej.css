@@ -1,0 +1,36 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+    background-image: url('../IMG/Captura\ de\ pantalla\ 1.png'); /* Cambia esto por la URL de tu imagen */
+}
+
+.parallax2 {
+    background-image: url('../IMG/Captura\ de\ pantalla\ 2.png'); /* Cambia esto por la URL de tu imagen */
+}
+
+.content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para mejor visibilidad */
+}
+
+.imagen-centro {
+    width: 650px;
+    height: auto; /* Mantiene la relación de aspecto */
+}
