@@ -11,4 +11,5 @@ window.addEventListener ('scroll',() => {
     captura1.style.top = value * 0.4 + 'px';
     logo.style.top = value * -1.5 + 'px';
     degradado.style.top = value * 0.4 + 'px';
+
 });

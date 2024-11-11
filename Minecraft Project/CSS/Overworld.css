@@ -100,3 +100,36 @@ p{
 .card{
     color: #000;
 }
+
+.hover-galery{
+    background-color: #737070;
+    align-content: center;
+    display: flex;
+    height: 430px;
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+
+.hover-galery img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: fill;
+    opacity: .3;
+    transition: .5s ease;
+}
+
+.hover-galery img:hover{
+    cursor: crosshair;
+    width: 75%;
+    opacity: 1;
+    filter: contrast(120%);
+
+}
+
+.card img {
+    width: 286px;
+    height: 286px;
+
+
+}
